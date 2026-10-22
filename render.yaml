@@ -1,6 +1,6 @@
 databases:
   - name: sitecheck-db-scq
-    databaseeName: sitecheck
+    databaseName: sitecheck
     user: sitecheck
     plan: free  
     region: singapore
@@ -35,4 +35,3 @@ services:
       - type: rewrite
         source: /*
         destination: /index.html
-       
